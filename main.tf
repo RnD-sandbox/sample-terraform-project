@@ -59,7 +59,7 @@ locals {
 }
 
 data "ibm_resource_group" "resource_group_ds" {
-  name = "Automation"
+  name = var.pi_resource_group_name
 }
 
 resource "ibm_resource_instance" "pi_workspace" {

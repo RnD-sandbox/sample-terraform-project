@@ -9,6 +9,11 @@ variable "pi_zone" {
   type        = string
 }
 
+variable "pi_resource_group_name" {
+  description = "Resource group name."
+  type        = string
+}
+
 variable "pi_workspace_name" {
   description = "The Power Virtual Server Workspace name."
   type        = string
